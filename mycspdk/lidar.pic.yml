@@ -17,7 +17,7 @@ instances:
     settings:
       bend_s: bend_s
       coupler: mmi1x2
-      cross_section: strip
+      cross_section: xs_sc
       noutputs: 8
       spacing:
         - 50
@@ -53,7 +53,7 @@ routes:
       s,o2_2_8: dbr,o1_8_1
     routing_strategy: route_bundle
     settings:
-      cross_section: strip
+      cross_section: xs_sc
       radius: 5
       sort_ports: true
 warnings: {}
