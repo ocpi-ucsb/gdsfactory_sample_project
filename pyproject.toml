@@ -6,7 +6,7 @@ requires = ["setuptools", "pip", "build", "wheel"]
 authors = [{name = "GDSFactory", email = "support@gdsfactory.com"}]
 classifiers = ["Programming Language :: Python :: 3.12"]
 dependencies = [
-  "cspdk==0.16.0",
+  "cspdk~=0.16.1",
   "doroutes>=0.2.0",
   "gdsfactoryplus>=0.42.2",
   "gplugins[sax,femwell,tidy3d]~=1.3.3"
