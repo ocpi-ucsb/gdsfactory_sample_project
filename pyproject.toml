@@ -37,6 +37,11 @@ timeout = 300
 [tool.gdsfactoryplus.pdk]
 name = "cspdk.si220"
 
+[tool.gdsfactoryplus.sim.wls]
+max = 1.5
+min = 1.6
+num = 1000
+
 [tool.pyright]
 reportMissingImports = true
 reportMissingTypeStubs = false
