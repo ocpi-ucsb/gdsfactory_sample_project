@@ -21,7 +21,7 @@ __pycache__/
 
 # C extensions
 *.so
-*.mesh.msh
+*.msh
 
 # Distribution / packaging
 .Python
