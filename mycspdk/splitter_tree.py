@@ -1,5 +1,4 @@
 import gdsfactory as gf
-from cspdk.si220 import cells
 
 
 @gf.cell
