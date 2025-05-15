@@ -12,7 +12,8 @@ routes:
     links:
       c1,o3-4: c2,o3-4
     routing_strategy: route_bundle
-    settings: {}
+    settings:
+      sort_ports: true
 nets: []
 ports: {}
 placements:

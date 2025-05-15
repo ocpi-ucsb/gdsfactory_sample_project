@@ -1,3 +1,18 @@
+exploded: ''
+camera_transform:
+  translation:
+    x: -152.00826
+    y: -43.280163
+    z: 0.0
+  rotation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  scale:
+    x: 0.36996248
+    y: 0.36996248
+    z: 1.0
 transforms:
   r1:
     translation:
@@ -55,8 +70,13 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-component_ports:
+port_configs:
   ring_single:
-    o2: e
-    o1: w
-array_configs: {}
+    o2:
+      orientation: e
+      port_type: optical
+      index: 0.0
+    o1:
+      orientation: w
+      port_type: optical
+      index: 0.0
