@@ -1,25 +1,25 @@
 # yaml-language-server: $schema=../build/schemas/mzi_heater_with_pads.json
 instances:
   b3:
-    component: bend_euler_sc
+    component: bend_euler
     settings: {}
   b1:
-    component: bend_euler_sc
+    component: bend_euler
     settings: {}
   b2:
-    component: bend_euler_sc
+    component: bend_euler
     settings: {}
   b4:
-    component: bend_euler_sc
+    component: bend_euler
     settings: {}
   c1:
-    component: coupler_sc
+    component: coupler
     settings: {}
   c2:
-    component: coupler_sc
+    component: coupler
     settings: {}
   h:
-    component: straight_heater_metal_sc
+    component: straight_heater_metal
     settings:
       length: 100
   p1:

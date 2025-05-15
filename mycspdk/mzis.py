@@ -6,10 +6,10 @@ def mzi3(delta_length=100.0) -> gf.Component:
     c = gf.Component()
 
     # components
-    mmi_in = gf.get_component("mmi1x2_sc")
-    mmi_out = gf.get_component("mmi2x2_sc")
-    bend = gf.get_component("bend_euler_sc")
-    half_delay_straight = gf.get_component("straight_sc", length=delta_length / 2)
+    mmi_in = gf.get_component("mmi1x2")
+    mmi_out = gf.get_component("mmi2x2")
+    bend = gf.get_component("bend_euler")
+    half_delay_straight = gf.get_component("straight", length=delta_length / 2)
 
     # references
     mmi_in_ref = c << mmi_in
@@ -59,10 +59,10 @@ def mzi4(delta_length=10.0) -> gf.Component:
     c = gf.Component()
 
     # components
-    mmi_in = gf.get_component("mmi1x2_sc")
-    mmi_out = gf.get_component("mmi2x2_sc")
-    bend = gf.get_component("bend_euler_sc")
-    half_delay_straight = gf.get_component("straight_sc", length=delta_length / 2)
+    mmi_in = gf.get_component("mmi1x2")
+    mmi_out = gf.get_component("mmi2x2")
+    bend = gf.get_component("bend_euler")
+    half_delay_straight = gf.get_component("straight", length=delta_length / 2)
 
     # references
     mmi_in_ref = c << mmi_in

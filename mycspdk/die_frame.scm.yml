@@ -350,11 +350,11 @@ transforms:
       y: 1.0
       z: 1.0
 component_ports:
-  mmi1x2_sc:
+  mmi1x2:
     o2: e
     o3: e
     o1: w
-  die_sc:
+  die:
     e1: w
     e2: n
     e3: n

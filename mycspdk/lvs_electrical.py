@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import gdsfactory as gf
-from cspdk.si220 import cells
+from cspdk.si220.cband import cells
 
 
 @gf.cell

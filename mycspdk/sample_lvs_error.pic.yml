@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=../build/schemas/sample_lvs_error.json
 instances:
   s1:
-    component: straight_sc
+    component: straight
     settings: {}
   bend:
-    component: bend_euler_sc
+    component: bend_euler
     settings: {}
   s2:
-    component: straight_sc
+    component: straight
     settings: {}
 connections:
   s1,o2: bend,o1

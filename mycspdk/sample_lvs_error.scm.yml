@@ -42,7 +42,7 @@ transforms:
       y: 1.0
       z: 1.0
 port_configs:
-  straight_sc:
+  straight:
     o1:
       orientation: w
       port_type: optical
@@ -51,7 +51,7 @@ port_configs:
       orientation: e
       port_type: optical
       index: 0.0
-  bend_euler_sc:
+  bend_euler:
     o1:
       orientation: w
       port_type: optical

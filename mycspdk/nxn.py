@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import gdsfactory as gf
-from cspdk.si220 import LAYER
+from cspdk.si220.cband import LAYER
 from gdsfactory.component import Component
 from gdsfactory.typings import LayerSpec
 

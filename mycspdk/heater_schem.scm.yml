@@ -28,7 +28,7 @@ transforms:
       y: 1.0
       z: 1.0
 component_ports:
-  straight_heater_metal_sc:
+  straight_heater_metal:
     o2: e
     r_e3: e
     o1: w

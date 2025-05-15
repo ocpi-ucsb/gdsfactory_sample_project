@@ -25,10 +25,10 @@ routes:
       p4,e1: p3,e3
     routing_strategy: route_bundle_metal
     settings:
-      bend: bend_euler_sc
+      bend: bend_euler
       port_type: electrical
-      straight: straight_sc
-      taper: taper_sc
+      straight: straight
+      taper: taper
 nets: []
 ports: {}
 placements:

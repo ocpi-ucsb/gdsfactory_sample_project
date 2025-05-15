@@ -70,10 +70,10 @@ transforms:
       y: 1.0
       z: 1.0
 component_ports:
-  grating_coupler_elliptical_sc:
+  grating_coupler_elliptical:
     o1: w
     o2: e
-  ring_single_sc:
+  ring_single:
     o2: e
     o1: w
 array_configs: {}

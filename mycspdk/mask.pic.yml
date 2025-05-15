@@ -3,7 +3,7 @@ instances:
   rings:
     component: pack_doe
     settings:
-      doe: ring_single_sc
+      doe: ring_single
       settings:
         radius:
           - 5
@@ -15,13 +15,13 @@ instances:
           - 3
       do_permutations: true
       function:
-        function: add_fiber_array_sc
+        function: add_fiber_array
         settings:
           fanout_length: 200
   mzis:
     component: pack_doe_grid
     settings:
-      doe: mzi_sc
+      doe: mzi
       settings:
         delta_length:
           - 10
@@ -32,7 +32,7 @@ instances:
       spacing:
         - 10
         - 10
-      function: add_fiber_array_sc
+      function: add_fiber_array
 connections: {}
 routes: {}
 ports: {}
