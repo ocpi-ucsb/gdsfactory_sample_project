@@ -1,79 +1,79 @@
 # yaml-language-server: $schema=../build/schemas/die_frame.json
 instances:
   mmi10x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi11x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi12x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi13x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi14x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi15x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi16x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi17x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi18x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi19x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi1x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi20x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi21x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi22x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi23x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi24x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi2x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi3x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi4x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi5x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi6x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi9x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi8x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   mmi7x:
-    component: mmi1x2_sc
+    component: mmi1x2
     settings: {}
   die_template:
-    component: die_sc
+    component: die_with_pads
     settings: {}
 connections:
   mmi1x,o1: die_template,o1

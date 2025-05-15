@@ -84,7 +84,7 @@ transforms:
       y: 1.0
       z: 1.0
 component_ports:
-  die_sc:
+  die:
     o13: e
     o14: e
     o15: e
@@ -178,7 +178,7 @@ component_ports:
     o1: w
     e1: w
     e2: e
-  ring_single_sc:
+  ring_single:
     o2: e
     o1: w
 array_configs: {}

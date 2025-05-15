@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=../build/schemas/rings_filter.json
 instances:
   r1:
-    component: ring_single_sc
+    component: ring_single
     settings: {}
   r2:
-    component: ring_single_sc
+    component: ring_single
     settings: {}
 connections: {}
 routes:

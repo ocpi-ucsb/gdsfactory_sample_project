@@ -28,7 +28,7 @@ transforms:
       y: 1.0
       z: 1.0
 port_configs:
-  coupler_sc:
+  coupler:
     o1:
       orientation: w
       port_type: optical

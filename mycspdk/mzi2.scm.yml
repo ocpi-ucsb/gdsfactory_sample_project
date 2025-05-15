@@ -140,10 +140,10 @@ transforms:
       y: 1.0
       z: 1.0
 component_ports:
-  bend_euler_sc:
+  bend_euler:
     o2: n
     o1: w
-  coupler_sc:
+  coupler:
     o3: e
     o4: e
     o1: w

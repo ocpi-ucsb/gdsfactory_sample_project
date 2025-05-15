@@ -168,6 +168,6 @@ transforms:
       y: 1.0
       z: 1.0
 component_ports:
-  straight_sc:
+  straight:
     o2: e
     o1: w

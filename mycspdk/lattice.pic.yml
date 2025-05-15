@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=../build/schemas/lattice.json
 instances:
   mzi1:
-    component: mzi_sc
+    component: mzi
     settings: {}
   mzi2:
-    component: mzi_sc
+    component: mzi
     settings:
       delta_length: 20
 connections: {}

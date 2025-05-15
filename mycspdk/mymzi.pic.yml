@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=../build/schemas/mymzi.json
 instances:
   mzi:
-    component: mzi_sc
+    component: mzi
     settings: {}
 connections: {}
 routes: {}

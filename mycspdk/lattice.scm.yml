@@ -70,7 +70,7 @@ transforms:
       y: 1.0
       z: 1.0
 component_ports:
-  mzi_sc:
+  mzi:
     o3: e
     o2: e
     o1: w

@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=../build/schemas/tooclose.json
 instances:
   wg1:
-    component: straight_sc
+    component: straight
   wg2:
-    component: straight_sc
+    component: straight
 connections: {}
 routes: {}
 ports: {}

@@ -5,33 +5,33 @@ default_settings:
     description: "The delta length between the two arms"
 instances:
   c1:
-    component: coupler_sc
+    component: coupler
     settings: {}
   c2:
-    component: coupler_sc
+    component: coupler
     settings: {}
   b3:
-    component: bend_euler_sc
+    component: bend_euler
     settings: {}
   sr:
-    component: straight_sc
+    component: straight
     settings:
       length: {{ dL }}
   sl:
-    component: straight_sc
+    component: straight
     settings:
       length: {{ dL }}
   b1:
-    component: bend_euler_sc
+    component: bend_euler
     settings: {}
   b4:
-    component: bend_euler_sc
+    component: bend_euler
     settings: {}
   b2:
-    component: bend_euler_sc
+    component: bend_euler
     settings: {}
   h:
-    component: straight_heater_metal_sc
+    component: straight_heater_metal
     settings:
       length: 100
 connections:

@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=../build/schemas/couplers.json
 instances:
   c1:
-    component: coupler_sc
+    component: coupler
     settings: {}
   c2:
-    component: coupler_sc
+    component: coupler
     settings: {}
 connections: {}
 routes:

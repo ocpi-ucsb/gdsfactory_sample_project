@@ -28,9 +28,9 @@ transforms:
       y: 1.0
       z: 1.0
 component_ports:
-  bend_euler_sc:
+  bend_euler:
     o2: n
     o1: w
-  straight_sc:
+  straight:
     o2: e
     o1: w

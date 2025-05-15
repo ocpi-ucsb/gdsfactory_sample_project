@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=../build/schemas/sample_array.json
 instances:
   b1:
-    component: bend_euler_sc
+    component: bend_euler
     settings:
       radius: 20
   s1:
-    component: straight_sc
+    component: straight
     settings:
-      cross_section: xs_sc
+      cross_section: strip
       length: 10
     array:
       columns: 3

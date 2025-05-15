@@ -1,17 +1,17 @@
 # yaml-language-server: $schema=../build/schemas/rings.json
 instances:
   ring2:
-    component: ring_single_sc
+    component: ring_single
     settings: {}
   ring1:
-    component: ring_single_sc
+    component: ring_single
     settings:
       radius: 20
   m1:
     component: mzi_heater
     settings: {}
   d:
-    component: die_sc
+    component: die_with_pads
     settings: {}
 connections: {}
 routes:
