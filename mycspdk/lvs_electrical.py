@@ -21,6 +21,11 @@ def pads_correct(pad=cells.pad, cross_section="metal_routing") -> gf.Component:
     tr = c << pad
     br = c << pad
 
+    tl.name = "tl"
+    bl.name = "bl"
+    tr.name = "tr"
+    br.name = "br"
+
     tl.dmove((0, 300))
     br.dmove((500, 0))
     tr.dmove((500, 500))
@@ -49,6 +54,11 @@ def pads_shorted(pad=cells.pad, cross_section="metal_routing") -> gf.Component:
 
     tr = c << pad
     br = c << pad
+
+    tl.name = "tl"
+    bl.name = "bl"
+    tr.name = "tr"
+    br.name = "br"
 
     tl.dmove((0, 300))
     br.dmove((500, 0))
