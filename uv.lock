@@ -399,15 +399,16 @@ wheels = [
 
 [[package]]
 name = "cspdk"
-version = "0.17.0"
+version = "1.0.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
+    { name = "doroutes" },
     { name = "gdsfactory" },
     { name = "gplugins", extra = ["sax"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/02/7b/089630b67422f70b580052199fc407ca6f5c8deb7aa22eaed890c58d517f/cspdk-0.17.0.tar.gz", hash = "sha256:a67b4e463db73e8718ca4921d43c51daa3da2112d80801cb5afb8b3ce1459947", size = 178086 }
+sdist = { url = "https://files.pythonhosted.org/packages/cd/6b/777d4b2356b049cd6e013ec9b87d802245559eb8de257b75fc5d9cd64825/cspdk-1.0.0.tar.gz", hash = "sha256:2aebf7b6e5d58ee4a586286ffdf44f56b39dd7f985a61543258fb3ade7c5b31b", size = 263803 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b3/30/e9d357a9903e72cef4521c3b22ce080a9ef03658799796bf17a47eb61bc2/cspdk-0.17.0-py3-none-any.whl", hash = "sha256:1ed573eed0229130ba95d755147eaac75befc38a3692576b3f50b145878a5cba", size = 212096 },
+    { url = "https://files.pythonhosted.org/packages/cf/c0/e2fd9949f2beb8abf3ba04b28863a977adb024157aa01bf6f0640ca91acb/cspdk-1.0.0-py3-none-any.whl", hash = "sha256:67eb984588c23265263849064d09962bb155aecf11cb0d09aaae16a9abdb2955", size = 322516 },
 ]
 
 [[package]]
@@ -1652,7 +1653,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "cspdk", specifier = "~=0.17.0" },
+    { name = "cspdk", specifier = "~=1.0.0" },
     { name = "doroutes", specifier = ">=0.2.0" },
     { name = "gdsfactoryplus", specifier = ">=0.46.1" },
     { name = "gplugins", extras = ["sax", "femwell", "tidy3d"], specifier = "~=1.3.3" },
