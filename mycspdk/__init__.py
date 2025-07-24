@@ -10,4 +10,13 @@ module_path = pathlib.Path(__file__).parent.absolute()
 repo_path = module_path.parent
 
 
+from mycspdk.cross_sections import cross_sections
+
+PDK.cross_sections.update(cross_sections)
+
 __all__ = ["PDK"]
+
+
+if __name__ == "__main__":
+    c = PDK.cells["ring_single"](cross_section="strip600")
+    c.show()
