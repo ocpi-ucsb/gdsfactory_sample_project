@@ -54,8 +54,8 @@ instances:
   mmi3x:
     component: mmi1x2
     settings: {}
-  mmi4x:
-    component: mmi1x2
+  die_template:
+    component: die_with_pads
     settings: {}
   mmi5x:
     component: mmi1x2
@@ -72,8 +72,8 @@ instances:
   mmi7x:
     component: mmi1x2
     settings: {}
-  die_template:
-    component: die_with_pads
+  mmi4x:
+    component: mmi1x2
     settings: {}
 connections:
   mmi1x,o1: die_template,o1

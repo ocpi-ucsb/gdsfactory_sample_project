@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../build/schemas/heaterhem.json
+# yaml-language-server: $schema=../build/schemas/heater_schem.json
 instances:
   s1:
     component: straight_heater_metal

@@ -10,10 +10,6 @@ module_path = pathlib.Path(__file__).parent.absolute()
 repo_path = module_path.parent
 
 
-from mycspdk.cross_sections import cross_sections
-
-PDK.cross_sections.update(cross_sections)
-
 __all__ = ["PDK"]
 
 
