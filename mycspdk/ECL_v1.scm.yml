@@ -1,8 +1,8 @@
 exploded: ''
 camera_transform:
   translation:
-    x: 231.17781
-    y: 118.85637
+    x: 46.09349
+    y: 109.421074
     z: 0.0
   rotation:
     x: 0.0
@@ -10,14 +10,14 @@ camera_transform:
     z: 0.0
     w: 1.0
   scale:
-    x: 1.3171101
-    y: 1.3171101
+    x: 1.1392115
+    y: 1.1392115
     z: 1.0
 transforms:
-  ring2:
+  gc_taper:
     translation:
-      x: -20.000015
-      y: -202.0
+      x: -372.1992
+      y: 102.0
       z: 2.0
     rotation:
       x: 0.0
@@ -30,8 +30,8 @@ transforms:
       z: 1.0
   ring1:
     translation:
-      x: -208.84277
-      y: -196.89056
+      x: -188.957
+      y: 105.61331
       z: 2.0
     rotation:
       x: 0.0
@@ -42,10 +42,24 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  m2:
+  ring2:
     translation:
-      x: 203.24066
-      y: 293.53812
+      x: 97.24417
+      y: 239.6442
+      z: 2.0
+    rotation:
+      x: -0.99999994
+      y: 0.0
+      z: 4.371139e-08
+      w: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  loop:
+    translation:
+      x: 550.6343
+      y: 246.83115
       z: 2.0
     rotation:
       x: 0.0
@@ -56,10 +70,10 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  d:
+  mzi_loop_mirror2:
     translation:
-      x: -263.0058
-      y: -32.655502
+      x: 346.80063
+      y: 247.51468
       z: 2.0
     rotation:
       x: 0.0
@@ -70,10 +84,10 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  o1:
+  gc_input:
     translation:
-      x: -330.18558
-      y: -81.754166
+      x: -508.4473
+      y: 129.31628
       z: 5.0
     rotation:
       x: 0.0
@@ -84,10 +98,10 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  o2:
+  ECL_output:
     translation:
-      x: 167.00003
-      y: -28.000004
+      x: 157.25563
+      y: -78.67253
       z: 5.0
     rotation:
       x: 0.0
@@ -99,16 +113,37 @@ transforms:
       y: 1.0
       z: 1.0
 sizes:
-  ring2:
+  gc_taper:
     width: 100
     height: 100
   ring1:
     width: 100
     height: 100
-  m2:
+  ring2:
     width: 100
     height: 100
-  d:
-    width: 784
-    height: 404
+  loop:
+    width: 100
+    height: 100
+  mzi_loop_mirror2:
+    width: 100
+    height: 100
 link_paths: []
+instance_annotations:
+  ring1:
+  - gap
+  - radius
+  - length_x
+  - length_y
+  - length_extension
+  ring2:
+  - gap
+  - radius
+  - length_x
+  - length_y
+  - length_extension
+  loop:
+  - radius
+  - angle
+  mzi_loop_mirror2:
+  - delta_length

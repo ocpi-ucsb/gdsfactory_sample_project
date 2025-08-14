@@ -1,0 +1,71 @@
+# yaml-language-server: $schema=../build/schemas/ECL_v1.json
+instances:
+  gc_taper:
+    component: taper
+    settings: {}
+  ring1:
+    component: ring_single
+    settings:
+      gap: 0.9
+      radius: 750
+      length_x: 380
+      length_y: 0.0
+      length_extension: 1500
+  ring2:
+    component: ring_single
+    settings:
+      gap: 0.9
+      radius: 750.0
+      length_x: 380.0
+      length_y: 0.0
+      length_extension: 1500
+  loop:
+    component: bend_euler
+    settings:
+      radius: 100
+      angle: 180
+  mzi_loop_mirror2:
+    component: mzi
+    settings:
+      delta_length: 0
+connections:
+  gc_taper,o2: ring1,o1
+routes:
+  bundle1:
+    links:
+      ring1,o2: ring2,o1
+    routing_strategy: route_bundle
+    settings:
+      allow_width_mismatch: true
+nets:
+- p1: mzi_loop_mirror2,o3
+  p2: loop,o2
+- p1: mzi_loop_mirror2,o4
+  p2: loop,o1
+- p1: ring2,o2
+  p2: mzi_loop_mirror2,o2
+ports:
+  gc_input: gc_taper,o1
+  ECL_output: mzi_loop_mirror2,o1
+placements:
+  gc_taper:
+    x: 0.0
+    y: 0.0
+    dx: -96.444
+    dy: -26.43
+  ring1:
+    x: 0.0
+    y: 3000.0
+  ring2:
+    x: 5000.0
+    y: 1000.0
+  loop:
+    x: 5025.341
+    y: -903.264
+    dx: 99.916
+    dy: -4.089
+  mzi_loop_mirror2:
+    x: 5000.0
+    y: -1000.0
+    dx: 25.341
+    dy: 96.736
